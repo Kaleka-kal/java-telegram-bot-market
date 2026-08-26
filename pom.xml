@@ -17,11 +17,6 @@
 		<name>MCHV Apache Maven Packages</name>
 		<url>https://mvn.mchv.eu/repository/mchv/</url>
 	</repository>
-	<repository>
-		<id>mchv</id>
-		<name>MCHV Apache Maven Packages</name>
-		<url>https://mvn.mchv.eu/repository/mchv/</url>
-	</repository>
 </repositories>
 	<dependencyManagement>
 		<dependencies>
@@ -78,10 +73,6 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>4.1.0</version>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>it.tdlight</groupId>
-			<artifactId>tdlight-java</artifactId>
 		</dependency>
 
 		<!-- Нативный модуль (выберите нужный классификатор вместо artifactId, если требуется) -->
